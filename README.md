@@ -6,7 +6,7 @@ A small php wrapper that fetches stats from the pubg website
 Just download the PUBGPhp.php file and require it in your project
 ```
 require_once('PUBGPhp.php');
-$api = PUBGPhp.php('YOUR-API-KEY');
+$pubgapi = new PUBGPhp('YOUR-API-KEY');
 ```
 
 
