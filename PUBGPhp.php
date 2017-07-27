@@ -86,6 +86,7 @@ class PUBGPhp
                 print_r($data);
             }
         }
+        return $data;
     }
 
     /**Gets a certain stat for the player. This returns an array with the regions so keep that in mind ($stat['eu'],$stat['na'],$stat['as'],$stat['agg'])
